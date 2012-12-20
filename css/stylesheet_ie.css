@@ -1,0 +1,14 @@
+#side-showcase ul li
+{
+   filter: alpha(opacity=60);
+}
+
+#footer div.panel-foot
+{
+   filter: alpha(opacity=44);
+}
+
+#footer h1
+{
+   filter: alpha(opacity=8);
+}

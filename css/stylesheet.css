@@ -1,0 +1,367 @@
+/* CSS Reset */
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, a, table, tr, td, ul, ol, li, blockquote
+{
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul, ol
+{
+   list-style: none;
+}
+
+input, select, textarea
+{
+   font-size: inherit;
+   font-family: inherit;
+}
+
+html
+{
+   font: 100.01% Verdana, Tahoma, Arial, Helvetica, sans-serif;
+   line-height: 1;
+}
+
+a
+{
+   text-decoration: none;
+   color: black;
+}
+
+a img
+{
+   border: none;
+}
+
+/* layout */
+body
+{
+   background-color: #2a2a2a;
+}
+#page-bg
+{
+   background-color: #ffffff;
+}
+#head-bg
+{
+   height: 82px;
+   background: url("../images/nav-bg.png") repeat-x;
+}
+#head, #container, #foot-panels, #footer
+{
+   width: 980px;
+   margin: 0 auto;
+}
+
+/* nav bar */
+#head h1
+{
+   display: block;
+   float: right;
+   width: 296px;
+   height: 90px;
+   padding-top: 40px;
+   margin-top: 15px;
+   background-color: #020d2d;
+   color: #ffffff;
+   text-align: center;
+   text-transform: lowercase;
+   letter-spacing: .25em;
+   font-size: .9em;
+   line-height: 1.4;
+}
+#head h1 span
+{
+   letter-spacing: .7em;
+   font-weight: lighter;
+}
+#head ul
+{
+   float: left;
+   margin: 30px;
+   margin-left: 28px;
+}
+#head ul li
+{
+   display: inline;
+}
+#head ul li a
+{
+   display: inline-block;
+   padding: 10px;
+   text-transform: uppercase;
+   margin-right: 20px;
+}
+#head ul li a.active, #head ul li a:hover
+{
+   background-color: #ddc06a;
+}
+
+/* content area */
+#container img.side-image
+{
+   clear: both;
+   float: right;
+}
+#quote
+{
+   display: block;
+   background-color: #fcf6cc;
+   width: 563px;
+   min-height: 58px;
+   padding: 16px 35px 20px 40px;
+   margin-top: 24px;
+   text-align: justify;
+   line-height: 1.6;
+}
+#quote h2
+{
+   font-size: 1em;
+   font-weight: lighter;
+   line-height: 2.2em;
+   display: inline;
+}
+#quote span.start-quote, #quote span.end-quote
+{
+   font-size: 2.6em;
+   font-family: Georgia, Times, Serif;
+   line-height: 0;
+}
+#quote span.start-quote
+{
+   margin-left: -30px;
+   margin-right: -6px;
+   position: relative;
+   top: 18px;
+}
+#quote span.end-quote
+{
+   position: relative;
+   top: 18px;
+   z-index: 100;
+}
+#quote span.quote-by
+{
+   font-size: .7em;
+   color: #c0a562;
+}
+#container p
+{
+   font-size: .77em;
+   line-height: 2;
+   width: 640px;
+   text-align: justify;
+   margin-top: 32px;
+   padding-bottom: 40px;
+}
+#container a
+{
+   text-decoration: none;
+   color: #a88214;
+}
+#container a:hover
+{
+   text-decoration: underline;
+}
+
+/* gallery styles */
+#side-showcase
+{
+   clear: both;
+   float: right;
+   width: 291px;
+   padding-left: 5px;
+   margin: 20px 0;
+   background-color: #d4d4d4;
+}
+#side-showcase ul li
+{
+   display: inline-block;
+   float: left;
+   margin: 10px;
+   height: 75px;
+   width: 75px;
+   cursor: pointer;
+   opacity: .6;
+}
+#side-showcase ul li img
+{
+   height: 75px;
+   width: 75px;
+}
+#showcase-text
+{
+   clear: both;
+   margin-left: -5px;
+   background-color: #a6a6a6;
+   color: #ffffff;
+   padding: 10px;
+   font-size:.8em;
+}
+#image-stage
+{
+   height: 480px;
+   width: 640px;
+   margin: 20px 0;
+   background-color: #d4d4d4;
+}
+#gallery-count
+{
+   text-align: right;
+   vertical-align: middle;
+   height: 36px;
+   padding-right: 45px;
+}
+#next
+{
+   width: 45px;
+   vertical-align: middle;
+   text-align: center;
+   cursor: pointer;
+}
+#prev
+{
+   width: 43px;
+   vertical-align: middle;
+   text-align: center;
+   cursor: pointer;
+}
+#image-container
+{
+   height: 427px;
+   width: 545px;
+   vertical-align: middle;
+   text-align: center;
+}
+
+#image-container noscript p
+{
+   color: #d22121;
+   font-style: italic;
+   text-align:center;
+}
+
+#image-container a
+{
+   display: block;
+}
+#image-container a img
+{
+   max-height: 427px;
+   max-width: 545px;
+}
+#side-content
+{
+   clear: both;
+   float: right;
+   padding: 32px 20px 32px 25px;
+   width: 251px;
+   background-color: #d4d4d4;
+   margin: 24px 0;
+   font-size: .82em;
+   line-height: 1.4;
+}
+#side-content ul
+{
+   list-style-type: square;
+   list-style-position: outside;
+}
+#side-content ul li
+{
+   margin-left: 20px;
+   padding-left: 15px;
+   margin-bottom: 20px;
+}
+#foot-panels
+{
+   clear: both;
+}
+#foot-panels div
+{
+   width: 214px;
+   height: 135px;
+   background-color: #faf6d8;
+   text-align: left;
+   padding: 15px 22px 0 60px;
+}
+#panel-1, #foot-1
+{
+   float: left;
+}
+#panel-2, #foot-2
+{
+   margin: 0 auto;
+}
+#panel-3, #foot-3
+{
+   float: right;
+}
+#foot-panels div h3
+{
+   float: left;
+   position: relative;
+   margin-left: -50px;
+   margin-top: 85px;
+   font-size: 2.9em;
+   color: #e7cc7b;
+}
+#foot-panels div h4
+{
+   font-size: 1.0em;
+   font-weight: lighter;
+   margin-bottom: 20px;
+}
+#foot-panels div span
+{
+   font-size: .67em;
+}
+#closing-footer
+{
+   background-image: url("../images/footer-bg.png");
+   height: 115px;
+   clear: both;
+}
+
+#closing-footer.no-panel
+{
+   margin-top:30px;
+}
+
+#closing-footer.no-panel #footer
+{
+   padding: 0;
+   padding-top: 20px;
+}
+#footer div.panel-foot
+{
+   width: 296px;
+   height: 21px;
+   background-color: #faeba2;
+   opacity: .44;
+}
+#footer h1
+{
+   float: right;
+   height: 56px;
+   font-size: 2.9em;
+   opacity: .08;
+}
+#footer a
+{
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+}
+#footer a:hover
+{
+   text-decoration: underline;
+}
+#copyright
+{
+   clear: both;
+   color: #ffffff;
+   font-size: .65em;
+   background-image: url("../images/copyright-bg.png");
+   padding: 14px 20px;
+}

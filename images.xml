@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<images>
+   <image thumb="t1.jpg" mid="m1.jpg" full="f1.jpg" text="Some of our" />
+   <image thumb="t2.jpg" mid="m2.jpg" full="f2.jpg" text="We only use name-brand equipment. No cheap stuff for us!" />
+   <image thumb="t3.jpg" mid="m3.jpg" full="f3.jpg" text="Who can resist a CAT?" />
+   <image thumb="t4.jpg" mid="m4.jpg" full="f4.jpg" text="A bridge that we are totally capable of building. Honest." />
+   <image thumb="t5.jpg" mid="m5.jpg" full="f5.jpg" text="The Hall of Justice building in San Diego. We wish we had built it!" />	
+</images>
+ 
